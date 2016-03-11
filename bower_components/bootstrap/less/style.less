@@ -1,0 +1,34 @@
+@import "bootstrap.less";
+
+//cores
+
+@marom: #453a36;
+@branco: #ffffff;
+
+
+body{
+    position: relative;
+    background-color: @branco;
+
+}
+
+header{
+    background: url("../image/png/header.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+}
+
+.navbar-default {
+    background-color: @marom;
+    border-radius: 0;
+    border: 0;
+    color: @branco;
+
+    .navbar-nav > li > a {
+        color: @branco;
+    }
+
+}
