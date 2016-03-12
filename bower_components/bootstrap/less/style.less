@@ -1,7 +1,13 @@
 @import "bootstrap.less";
 
-//cores
+//font
+@font-face {
+    font-family: 'MedulaOne';
+    src: url('../font/MedulaOne-Regular.ttf')  format('truetype')      
+}
 
+
+//cores
 @marom: #453a36;
 @branco: #ffffff;
 
@@ -9,7 +15,7 @@
 body{
     position: relative;
     background-color: @branco;
-
+    font-family: 'MedulaOne';    
 }
 
 header{
@@ -18,7 +24,14 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 300px;
+    height: 400px;
+    position: relative;
+
+    .data{
+        position: absolute;
+        top: 40px;
+        left: 50px;
+    }
 }
 
 .navbar-default {
@@ -30,5 +43,65 @@ header{
     .navbar-nav > li > a {
         color: @branco;
     }
+}
+
+.home{
+
+    .mel, .marieleo{
+        .text-center;
+        .center-block;
+
+        margin: 20px 0px;
+    }    
+}
+
+.detalhes{
+    margin-top: 50px;
+    .text-center;
+
+
+    .sessao{
+        padding-top: 75px;
+        min-height: 400px;
+    }
+
+
+
+    .rococo{
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .igreja{
+        img{
+            width: 100px;
+            height: auto;
+        }
+    }
+
+    .bolinhas{
+        img{
+            width: 80px;
+            height: auto;
+        }
+    }
+
+    img.coracao-colorido{
+        padding: 10px 0;
+    }
 
 }
+
+#padrinhos{
+    
+    .text-left;
+
+}
+
+//formularios
+.freebirdHeaderMast {
+    display: none !important;
+}
+

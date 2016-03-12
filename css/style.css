@@ -6724,9 +6724,14 @@ button.close {
     display: none !important;
   }
 }
+@font-face {
+  font-family: 'MedulaOne';
+  src: url('../font/MedulaOne-Regular.ttf') format('truetype');
+}
 body {
   position: relative;
   background-color: #ffffff;
+  font-family: 'MedulaOne';
 }
 header {
   background: url("../image/png/header.png") no-repeat center center fixed;
@@ -6734,7 +6739,13 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 300px;
+  height: 400px;
+  position: relative;
+}
+header .data {
+  position: absolute;
+  top: 40px;
+  left: 50px;
 }
 .navbar-default {
   background-color: #453a36;
@@ -6744,4 +6755,41 @@ header {
 }
 .navbar-default .navbar-nav > li > a {
   color: #ffffff;
+}
+.home .mel,
+.home .marieleo {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 20px 0px;
+}
+.detalhes {
+  margin-top: 50px;
+  text-align: center;
+}
+.detalhes .sessao {
+  padding-top: 75px;
+  min-height: 400px;
+}
+.detalhes .rococo img {
+  width: 100%;
+  height: auto;
+}
+.detalhes .igreja img {
+  width: 100px;
+  height: auto;
+}
+.detalhes .bolinhas img {
+  width: 80px;
+  height: auto;
+}
+.detalhes img.coracao-colorido {
+  padding: 10px 0;
+}
+#padrinhos {
+  text-align: left;
+}
+.freebirdHeaderMast {
+  display: none !important;
 }
