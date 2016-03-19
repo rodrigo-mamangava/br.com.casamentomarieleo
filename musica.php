@@ -5,12 +5,19 @@
 
     <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 ">
-            <iframe 
-                src="https://docs.google.com/forms/d/1FjOriyWy0sa6FTNE7V-4-dtiwZPgMcB05Cuquy7gf8Q/viewform?embedded=true" 
-                width="100%" 
-                height="auto" 
-                frameborder="0" 
-                marginheight="0" marginwidth="0">Carregando…</iframe>
+
+            <p>Queremos que a nossa festa seja super animada e gostaríamosde saber, qual música que você acha que não pode faltar na nossa festa de casamento.</p>
+
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nome da música">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Observação">
+                </div>
+                <button type="submit" class="btn btn-default">Enviar</button>
+            </form>
+
         </div>
     </div>
 

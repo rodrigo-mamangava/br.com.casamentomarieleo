@@ -12,10 +12,15 @@
 @branco: #ffffff;
 
 
+img{
+    position: relative;
+}
+
 body{
     position: relative;
     background-color: @branco;
-    font-family: 'MedulaOne';    
+    font-family: 'MedulaOne';
+    margin-bottom: 600px;
 }
 
 header{
@@ -63,14 +68,18 @@ header{
     .sessao{
         padding-top: 75px;
         min-height: 400px;
+        position: relative;
     }
 
 
 
     .rococo{
+        padding: 10px 0 60px;
+        z-index: 1000;
         img{
             width: 100%;
             height: auto;
+            z-index: 1000;
         }
     }
 
@@ -95,13 +104,51 @@ header{
 }
 
 #padrinhos{
-    
+
     .text-left;
 
+    .bolas-p{
+        position: absolute;
+
+        img{
+            position: relative;
+            z-index: 1000;
+        }
+    }
+
+    .bolas-p-1{
+        left: 0;
+        top: 100px;
+    }
+    .bolas-p-2{
+        right: 0;
+        top: 80px;
+    }
+    .bolas-p-3{
+        right: 100px;
+        top: 250px;
+    }
+
 }
 
-//formularios
-.freebirdHeaderMast {
-    display: none !important;
+
+#mensagens{
+    
+     .bolas-p{
+        position: absolute;
+
+        img{
+            position: relative;
+            z-index: 1000;
+        }
+    }
+
+
+    .bolas-p-4{
+        right: 100px;
+        top: 250px;
+    }
+
 }
+
 

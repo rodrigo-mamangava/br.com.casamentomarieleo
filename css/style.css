@@ -6728,10 +6728,14 @@ button.close {
   font-family: 'MedulaOne';
   src: url('../font/MedulaOne-Regular.ttf') format('truetype');
 }
+img {
+  position: relative;
+}
 body {
   position: relative;
   background-color: #ffffff;
   font-family: 'MedulaOne';
+  margin-bottom: 600px;
 }
 header {
   background: url("../image/png/header.png") no-repeat center center fixed;
@@ -6771,10 +6775,16 @@ header .data {
 .detalhes .sessao {
   padding-top: 75px;
   min-height: 400px;
+  position: relative;
+}
+.detalhes .rococo {
+  padding: 10px 0 60px;
+  z-index: 1000;
 }
 .detalhes .rococo img {
   width: 100%;
   height: auto;
+  z-index: 1000;
 }
 .detalhes .igreja img {
   width: 100px;
@@ -6790,6 +6800,33 @@ header .data {
 #padrinhos {
   text-align: left;
 }
-.freebirdHeaderMast {
-  display: none !important;
+#padrinhos .bolas-p {
+  position: absolute;
+}
+#padrinhos .bolas-p img {
+  position: relative;
+  z-index: 1000;
+}
+#padrinhos .bolas-p-1 {
+  left: 0;
+  top: 100px;
+}
+#padrinhos .bolas-p-2 {
+  right: 0;
+  top: 80px;
+}
+#padrinhos .bolas-p-3 {
+  right: 100px;
+  top: 250px;
+}
+#mensagens .bolas-p {
+  position: absolute;
+}
+#mensagens .bolas-p img {
+  position: relative;
+  z-index: 1000;
+}
+#mensagens .bolas-p-4 {
+  right: 100px;
+  top: 250px;
 }
