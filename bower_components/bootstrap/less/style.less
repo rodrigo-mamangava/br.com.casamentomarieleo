@@ -6,10 +6,15 @@
     src: url('../font/MedulaOne-Regular.ttf')  format('truetype')      
 }
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+@open: 'Open Sans', sans-serif;
+
 
 //cores
 @marom: #453a36;
 @branco: #ffffff;
+
 
 
 img{
@@ -18,8 +23,8 @@ img{
 
 body{
     position: relative;
-    background-color: @branco;
-    font-family: 'MedulaOne';
+    background-color: @branco;   
+    font-family: @open;
     margin-bottom: 600px;
 }
 
@@ -40,6 +45,8 @@ header{
 }
 
 .navbar-default {
+    font-size: 20px;
+    font-family: 'MedulaOne';
     background-color: @marom;
     border-radius: 0;
     border: 0;
@@ -48,6 +55,31 @@ header{
     .navbar-nav > li > a {
         color: @branco;
     }
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.navbar-nav > li > a {
+    padding-top: 18px;
+    padding-bottom: 12px;
+}
+
+//menu hover
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: blue;
+}
+
+//menu active
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+     color: blue; 
+    background-color: transparent; 
 }
 
 .home{
