@@ -4,7 +4,12 @@
     
     <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 ">
-            <?php require './lorenp.php'; ?>
+            <p>
+                Sem dúvida nossos pais são nossa inspiração.
+            </p>
+            <p>
+                São nossos exemplos de vida, de amor e de união.
+            </p>
         </div>
     </div>
     

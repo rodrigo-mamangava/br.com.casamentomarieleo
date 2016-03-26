@@ -8,13 +8,13 @@
             <p>Confirme sua presença nessa festa inesquecível!!!</p>
 
 
-            <form>
+            <form id="form-rsvp">
                 <div class="form-group">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nome">
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="NOME">
                 </div>
 
-                <div class="row">
-                    <div class="col-xs-6">
+                <div class="row" style="padding-bottom: 10px">
+                    <div class="col-xs-12 col-sm-6">
                         <p>Confirma presença?</p>
                         <div class="radio">
                             <label class="radio-inline">
@@ -25,14 +25,12 @@
                             </label>
                         </div>
                     </div>
-                    <div class="col-xs-6">
-                        <input type="tel" class="form-control" id="exampleInputEmail1" placeholder="NÚEMRO DE CONFIRMADOS">
+                    <div class="col-xs-12 col-sm-6">
+                        <input type="number" class="form-control" id="exampleInputEmail1" placeholder="NÚMERO DE CONFIRMADOS">
                     </div>
                 </div>
 
-
-
-                <div class="row">
+                <div class="row ">
                     <div class="col-xs-6">
                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
                     </div>

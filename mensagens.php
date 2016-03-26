@@ -5,7 +5,7 @@
     
     <div class="row bolas-p bolas-p-4">
         <div class="col-xs-12 ">
-            <img src="image/png/coracao-conjunto.png" class="img-responsive ">
+            <img src="image/png/coracao-conjunto.png" class="img-responsive hidden-xs">
         </div>
     </div>
 

@@ -17,7 +17,13 @@
 
     <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 ">
-            <?php require './lorenp.php'; ?>
+            <p>
+                A Cerimônia ocorrerá no <b>dia 02 de Julho de 2016 às 19h30 na 
+                Igreja do Colégio Santo Inácio localizada na Rua São Clemente, 
+                226 - Botafogo - Rio de Janeiro</b>. O noivo estudou a vida inteira 
+                do Colégio Santo Inácio e tem um carinho muito grande pela 
+                igreja.
+            </p>
         </div>
     </div>
 

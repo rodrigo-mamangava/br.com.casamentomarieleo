@@ -9,11 +9,33 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
 
 @open: 'Open Sans', sans-serif;
+@medu: 'MedulaOne';
+
+//resets
+
+//remover outline do link
+a, a:active, a:focus {
+    outline: none;
+}
+
+//centralizar menu
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
 
 
 //cores
 @marom: #453a36;
+@marrom-texto: #5d4e3f;
 @branco: #ffffff;
+@amarelo: #ede63d;
+@cinza-claro: #edeef0;
+@cinza-escuro: #edeef0;
 
 
 
@@ -23,7 +45,8 @@ img{
 
 body{
     position: relative;
-    background-color: @branco;   
+    background-color: @branco;
+    color: @marrom-texto;
     font-family: @open;
     margin-bottom: 600px;
 }
@@ -37,34 +60,42 @@ header{
     height: 400px;
     position: relative;
 
+    @media (max-width: @screen-xs-max) { 
+        height: 200px;
+    }
+
+
+
     .data{
         position: absolute;
         top: 40px;
         left: 50px;
+
+        @media (max-width: @screen-xs-max) { 
+            top: initial;
+            bottom: 10px;
+            left: 50px;
+        }
+
+
     }
 }
 
 .navbar-default {
     font-size: 20px;
-    font-family: 'MedulaOne';
+    font-family: @medu;
+    color: @branco;
     background-color: @marom;
     border-radius: 0;
     border: 0;
     color: @branco;
 
     .navbar-nav > li > a {
-        color: @branco;
+        color: @branco;        
     }
 }
 
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
 
-.navbar .navbar-collapse {
-    text-align: center;
-}
 
 .navbar-nav > li > a {
     padding-top: 18px;
@@ -73,12 +104,12 @@ header{
 
 //menu hover
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: blue;
+    color: @amarelo;
 }
 
 //menu active
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-     color: blue; 
+    color: @amarelo; 
     background-color: transparent; 
 }
 
@@ -135,9 +166,81 @@ header{
 
 }
 
-#padrinhos{
+#cerimonia{
+    margin-top: -75px;
 
+    .igreja{
+        padding-bottom: 40px;
+    }
+}
+
+#recepcao{
+    .bolinhas{
+        margin-top: -40px;
+        padding-bottom: 40px;
+    }
+}
+
+#padrinhos{
     .text-left;
+
+
+    .fotos-padrinho{
+
+
+    }
+
+    .card-padrinho{
+        height: 420px;
+
+/*        display: block;
+        width: 100%;
+        position: relative;
+        height: 0;
+        padding: 56.25% 0 0 0;
+        overflow: hidden;
+
+
+        img
+        {
+            position: absolute;
+            display: block;
+            max-width: 100%;
+            max-height: 100%;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+        }*/
+
+
+
+        @media (max-width: @screen-xs-max) { 
+            height: auto;
+        }
+        @media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+            height: 450px;
+        }
+        //        @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {  }
+        //        @media (min-width: @screen-lg-min) {  }
+
+
+        h3{
+            font-family: @medu;
+        }
+        p{
+            padding-bottom: 20px;
+            font-size: 12px;
+        }
+
+
+
+
+
+
+    }
+
 
     .bolas-p{
         position: absolute;
@@ -165,8 +268,8 @@ header{
 
 
 #mensagens{
-    
-     .bolas-p{
+
+    .bolas-p{
         position: absolute;
 
         img{
@@ -183,4 +286,27 @@ header{
 
 }
 
+
+form{
+    .form-control{
+        border-radius: 0;
+        background-color: @cinza-claro;
+        border: 1px solid @cinza-claro;
+
+        color: @marrom-texto;        
+    }
+
+    .btn-default{
+        .button-variant(@marrom-texto, @cinza-claro, @cinza-claro);
+        border-radius: 0;
+    }
+}
+
+#rsvp{
+    form#form-rsvp{
+        .btn{
+            margin-top: 40px;
+        }
+    }
+}
 
