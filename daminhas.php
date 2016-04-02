@@ -15,17 +15,11 @@
     
     
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="image/casal/DSC02055.JPG" class="img-responsive ">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-3 ">
+            <img src="image/daminha/daminha_rosa.jpg" class="img-responsive ">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="image/casal/DSC02055.JPG" class="img-responsive ">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="image/casal/DSC02055.JPG" class="img-responsive ">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="image/casal/DSC02055.JPG" class="img-responsive ">
+            <img src="image/daminha/daminhas_pajem.jpg" class="img-responsive ">
         </div>
     </div>
 

@@ -6796,9 +6796,69 @@ header .data {
 .navbar-default .navbar-nav > li > a:focus {
   color: #ede63d;
 }
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > li:nth-child(1).active > a,
+.navbar-default .navbar-nav > li:nth-child(1) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(1) > a:focus {
+  color: #cb6121;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li:nth-child(2).active > a,
+.navbar-default .navbar-nav > li:nth-child(2) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(2) > a:focus {
+  color: #75abdb;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li:nth-child(3).active > a,
+.navbar-default .navbar-nav > li:nth-child(3) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(3) > a:focus {
+  color: #b20053;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li:nth-child(4).active > a,
+.navbar-default .navbar-nav > li:nth-child(4) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(4) > a:focus {
+  color: #cb6121;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li:nth-child(5).active > a,
+.navbar-default .navbar-nav > li:nth-child(5) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(5) > a:focus {
+  color: #75abdb;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li:nth-child(6).active > a,
+.navbar-default .navbar-nav > li:nth-child(6) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(6) > a:focus {
+  color: #b20053;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li:nth-child(7).active > a,
+.navbar-default .navbar-nav > li:nth-child(7) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(7) > a:focus {
+  color: #ede63d;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li:nth-child(8).active > a,
+.navbar-default .navbar-nav > li:nth-child(8) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(8) > a:focus {
+  color: #cb6121;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li:nth-child(9).active > a,
+.navbar-default .navbar-nav > li:nth-child(9) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(9) > a:focus {
+  color: #75abdb;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li:nth-child(10).active > a,
+.navbar-default .navbar-nav > li:nth-child(10) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(10) > a:focus {
+  color: #b20053;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > li:nth-child(11).active > a,
+.navbar-default .navbar-nav > li:nth-child(11) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(11) > a:focus {
   color: #ede63d;
   background-color: transparent;
 }
@@ -6855,25 +6915,25 @@ header .data {
 #padrinhos .card-padrinho {
   height: 420px;
   /*        display: block;
-        width: 100%;
-        position: relative;
-        height: 0;
-        padding: 56.25% 0 0 0;
-        overflow: hidden;
-
-
-        img
-        {
-            position: absolute;
-            display: block;
-            max-width: 100%;
-            max-height: 100%;
-            left: 0;
-            right: 0;
-            top: 0;
-            bottom: 0;
-            margin: auto;
-        }*/
+                width: 100%;
+                position: relative;
+                height: 0;
+                padding: 56.25% 0 0 0;
+                overflow: hidden;
+        
+        
+                img
+                {
+                    position: absolute;
+                    display: block;
+                    max-width: 100%;
+                    max-height: 100%;
+                    left: 0;
+                    right: 0;
+                    top: 0;
+                    bottom: 0;
+                    margin: auto;
+                }*/
 }
 @media (max-width: 767px) {
   #padrinhos .card-padrinho {

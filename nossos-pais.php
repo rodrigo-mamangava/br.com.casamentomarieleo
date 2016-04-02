@@ -14,24 +14,14 @@
     </div>
     
     <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="image/png/coracao-laranja.png" class="coracao-colorido">
+        <div class="col-xs-12 col-sm-6 col-md-3 col-md-offset-3">
+            <img src="image/png/coracao-rosa.png" class="coracao-colorido">
 
-            <img src="image/casal/DSC02055.JPG" class="img-responsive ">
+            <img src="image/pais/pais_ramos.jpg" class="img-responsive ">
         </div>
         <div class="col-xs-12 col-sm-6 col-md-3 ">
             <img src="image/png/coracao-azul.png" class="coracao-colorido">
-            <img src="image/casal/DSC02055.JPG" class="img-responsive ">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="image/png/coracao-rosa.png" class="coracao-colorido">
-
-            <img src="image/casal/DSC02055.JPG" class="img-responsive ">
-        </div>
-        <div class="col-xs-12 col-sm-6 col-md-3 ">
-            <img src="image/png/coracao-amarelo.png" class="coracao-colorido">
-
-            <img src="image/casal/DSC02055.JPG" class="img-responsive ">
+            <img src="image/pais/pais_barreto.jpg" class="img-responsive ">
         </div>
     </div>
     
