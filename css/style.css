@@ -6752,7 +6752,7 @@ body {
   margin-bottom: 600px;
 }
 header {
-  background: url("../image/png/header.png") no-repeat center center fixed;
+  background: url("../image/capa/1.jpg") no-repeat center -400px fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -6862,6 +6862,12 @@ header .data {
   color: #ede63d;
   background-color: transparent;
 }
+.navbar-default .navbar-nav > li:nth-child(12).active > a,
+.navbar-default .navbar-nav > li:nth-child(12) > a:hover,
+.navbar-default .navbar-nav > li:nth-child(12) > a:focus {
+  color: #cb6121;
+  background-color: transparent;
+}
 .home .mel,
 .home .marieleo {
   text-align: center;
@@ -6878,6 +6884,7 @@ header .data {
   padding-top: 75px;
   min-height: 400px;
   position: relative;
+  padding-bottom: 10px;
 }
 .detalhes .rococo {
   padding: 10px 0 60px;
@@ -6971,6 +6978,10 @@ header .data {
   right: 100px;
   top: 250px;
 }
+#hospedagem a {
+  color: #5d4e3f !important;
+  text-decoration: underline;
+}
 #mensagens .bolas-p {
   position: absolute;
 }
@@ -7048,4 +7059,8 @@ form .btn-default .badge {
 }
 #rsvp form#form-rsvp .btn {
   margin-top: 40px;
+}
+#album .rococo {
+  margin-top: 70px;
+  margin-bottom: 20px;
 }

@@ -8,8 +8,9 @@
     $menu[] = array('padrinhos', 'Padrinhos');
     $menu[] = array('daminhas', 'Daminhas e pajem');
     $menu[] = array('lista', 'Lista de Presentes');
+    $menu[] = array('hospedagem', 'Hospedagem');
     $menu[] = array('mensagens', 'Mensagens');
-    $menu[] = array('musica', 'Mísicas');
+    $menu[] = array('musica', 'Músicas');
     $menu[] = array('rsvp', 'Confirmar presença');
     $menu[] = array('album', 'Álbum de fotos');
     

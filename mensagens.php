@@ -12,10 +12,10 @@
     <div class="row">
         <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 ">
 
-            <p>Deixe suas mensagens aos noivos!</p>
-            <p ng-show="message"> {{message}}</p>
+            <p ng-hide="message1.code == true">Deixe suas mensagens aos noivos!</p>
+            <p ng-show="message1.msg"> {{message1.msg}}</p>
 
-            <div ng-hide="message=='success'">
+            <div ng-hide="message1.code">
             <form name="formMsg" novalidate ng-submit="processFormMsg()">
                 <div class="form-group">
                     <input type="text" name="nome" class="form-control" 
@@ -29,6 +29,7 @@
                               ng-model="msg.texto" ng-required="true"
                               ></textarea>
                 </div>
+                
                 <button type="submit" class="btn btn-default" ng-disabled="formMsg.$invalid">Enviar</button>
             </form>
             </div>

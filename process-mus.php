@@ -1,15 +1,11 @@
 <?php
-
-// process.php
-
-
 include './email-data.php';
-$subject = "Mensagem para os noivos!";
+$subject = "Sugestão de músicas";
 
-$message = "Mensagem para os noivos: \n";
+$message = "E-mail de sugestão de músicas: \n";
 $message .= "-------------------------------\n";
-$message .= "Nome: {$_POST['nome']} \n\n";
-$message .= "Mensagem: {$_POST['texto']} \n";
+$message .= "Música: {$_POST['nome']} \n\n";
+$message .= "Obs: {$_POST['obs']} \n";
 
 $enviado = mail($to, $subject, $message);
 

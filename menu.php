@@ -24,7 +24,8 @@
                 <li><a class="menu" href="detalhes.php#daminhas">       Daminhas e pajem</a></li>
                 <li><a class="menu" href="detalhes.php#lista">          Lista de Presentes</a></li>
                 <li><a class="menu" href="detalhes.php#mensagens">      Mensagens</a></li>
-                <li><a class="menu" href="detalhes.php#musica">         Mísicas</a></li>
+                <li><a class="menu" href="detalhes.php#hospedagem">     Hospedagem</a></li>
+                <li><a class="menu" href="detalhes.php#musica">         Músicas</a></li>
                 <li><a class="menu" href="detalhes.php#rsvp">           Confirmar presença</a></li>
                 <li><a class="menu" href="detalhes.php#album">          Álbum de fotos</a></li>
             </ul>

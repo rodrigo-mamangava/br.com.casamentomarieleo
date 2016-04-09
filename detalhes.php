@@ -16,6 +16,8 @@
     
     <?php require './lista-de-presentes.php'; ?>
     
+    <?php require './hospedagem.php'; ?>
+    
     <?php require './mensagens.php'; ?>
     
     <?php require './musica.php'; ?>

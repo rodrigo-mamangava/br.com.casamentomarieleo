@@ -57,7 +57,7 @@ body{
 }
 
 header{
-    background: url("../image/png/header.png") no-repeat center center fixed; 
+    background: url("../image/capa/1.jpg") no-repeat center -400px fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -192,6 +192,14 @@ header{
     background-color: transparent; 
 }
 
+.navbar-default .navbar-nav > li:nth-child(12).active > a, 
+.navbar-default .navbar-nav > li:nth-child(12) > a:hover, 
+.navbar-default .navbar-nav > li:nth-child(12) > a:focus {
+    color: @laranja; 
+    background-color: transparent; 
+}
+
+
 
 .home{
 
@@ -212,6 +220,7 @@ header{
         padding-top: 75px;
         min-height: 400px;
         position: relative;
+        padding-bottom: 10px;
     }
 
 
@@ -347,6 +356,15 @@ header{
 }
 
 
+#hospedagem{
+    a{
+        color: @marrom-texto !important;
+        text-decoration: underline;
+    }
+
+}
+
+
 #mensagens{
 
     .bolas-p{
@@ -388,5 +406,16 @@ form{
             margin-top: 40px;
         }
     }
+}
+
+#album{
+    
+    .rococo{
+        
+        margin-top: 70px;
+        margin-bottom: 20px;
+        
+    }
+    
 }
 

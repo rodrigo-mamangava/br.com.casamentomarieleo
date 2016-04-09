@@ -16,24 +16,71 @@ function formController($scope, $http) {
             headers: {'Content-Type': 'application/x-www-form-urlencoded'}  // set the headers so angular passing info as form data (not request payload)
         })
                 .success(function (data) {
-                    console.log(data);
-
-                    if (!data.success) {
-                        // if not successful, bind errors to error variables
-                        $scope.message = data.errors.message;
-                        
-                        
+                    if (data.success) {
+                        $scope.message1 = {
+                            msg: "Mensagem enviada com sucesso! enviado com sucesso :)",
+                            code: true
+                        };
                     } else {
-                        // if successful, bind success message to message
-                        $scope.message = data.message;
+                        $scope.message1 = {
+                            msg: "Erro no envio! Tente mais tarde :(",
+                            code: false
+                        };
                     }
-                    
-                    console.log($scope.message);
-                    
-                    
                 });
-
-    };
-
+    };//processFormMsg
+    
+    
+    $scope.processFormMusica = function(){
+        
+        $http({
+            method: 'POST',
+            url: 'process-mus.php',
+            data: $.param($scope.musica), // pass in data as strings
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'}  // set the headers so angular passing info as form data (not request payload)
+        })
+                .success(function (data) {
+                    if (data.success) {
+                        $scope.message2 = {
+                            msg: "Mensagem enviada com sucesso! Adicionamos sua música a nossa lista. :)",
+                            code: true
+                        };
+                    } else {
+                        $scope.message2 = {
+                            msg: "Erro no envio! Tente mais tarde :(",
+                            code: false
+                        };
+                    }
+                });
+        
+    };//processFormMusica
+    
+    
+    $scope.processFormRsvp = function(){
+        
+        $http({
+            method: 'POST',
+            url: 'process-rsvp.php',
+            data: $.param($scope.rsvp), // pass in data as strings
+            headers: {'Content-Type': 'application/x-www-form-urlencoded'}  // set the headers so angular passing info as form data (not request payload)
+        })
+                .success(function (data) {
+                    if (data.success) {
+                        $scope.message3 = {
+                            msg: "Muito obrigado pela mensagem! :)",
+                            code: true
+                        };
+                    } else {
+                        $scope.message3 = {
+                            msg: "Erro no envio! Tente mais tarde :(",
+                            code: false
+                        };
+                    }
+                });
+        
+    };//processFormRsvp
+    
+    
+    
 }
 ;
